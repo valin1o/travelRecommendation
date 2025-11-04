@@ -1,0 +1,85 @@
+body {
+    background: url('background.jpg') no-repeat center center/cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #282c36bb;
+    padding: 1em;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+.logo img {
+    height: 32px;
+    margin-right: 0.5em;
+}
+.nav-links {
+    display: flex;
+    gap: 2em;
+    flex: 1;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.search-bar {
+    display: flex;
+    gap: 0.5em;
+}
+input[type="text"] {
+    padding: 0.5em;
+    border-radius: 4px;
+    border: none;
+    width: 220px;
+}
+button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.intro-section {
+    margin: 4em 0 0 3em;
+    max-width: 500px;
+    background: rgba(40,44,54,0.7);
+    padding: 2em 2em 2em 2em;
+    border-radius: 10px;
+    display: inline-block;
+}
+.intro-section h1 {
+    font-size: 2.5em;
+    margin: 0 0 0.5em 0;
+}
+.intro-section p {
+    font-size: 1.1em;
+}
+.book-btn {
+    background: #59c4c8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1em;
+    padding: 0.7em 2em;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.social {
+    position: fixed;
+    top: 8em;
+    left: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.social a {
+    color: #fff;
+    font-size: 1.6em;
+} 
