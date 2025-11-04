@@ -1,0 +1,102 @@
+body {
+    background: url('background.jpg') no-repeat center center/cover;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #282c36cc;
+    padding: 1em;
+}
+.logo img {
+    height: 32px;
+    margin-right: 0.4em;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+.nav-links {
+    display: flex;
+    gap: 2em;
+    flex: 1;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.about-section {
+    margin: 4em auto 0 4em;
+    max-width: 700px;
+    background: rgba(40,44,54,0.7);
+    padding: 2em;
+    border-radius: 10px;
+}
+.about-section h1 {
+    font-size: 2.5em;
+    margin: 0 0 1em 0;
+}
+.team-section {
+    margin: 3em auto 0 4em;
+    max-width: 800px;
+    background: rgba(40,44,54,0.7);
+    padding: 2em;
+    border-radius: 10px;
+}
+.team-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.team-list {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.team-member {
+    background: #232733;
+    border-radius: 10px;
+    padding: 1em 2em;
+    min-width: 160px;
+    text-align: center;
+}
+.team-member .name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+}
+.team-member .role {
+    margin-top: 0.4em;
+    color: #59c4c8;
+    font-weight: bold;
+    font-size: 1em;
+}
+.social-sidebar {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 999;
+}
+.social-sidebar a {
+    color: #fff;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(40,44,54,0.8);
+    transition: background 0.2s;
+    text-decoration: none;
+}
+.social-sidebar a:hover {
+    background: #59c4c8;
+}
